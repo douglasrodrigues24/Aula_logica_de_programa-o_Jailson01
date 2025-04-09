@@ -1,16 +1,16 @@
 Algoritmo "CronometroPara"
-// Disciplina   : [Lógica de Programação com visualg]
+// Disciplina   : [LÃ³gica de ProgramaÃ§Ã£o com visualg]
 // Professor   : Jailson
-// Descrição   : Programa que faz a simulação de cronometro
-// Autor(a)    : Oser
+// DescriÃ§Ã£o   : Programa que faz a simulaÃ§Ã£o de cronometro
+// Autor(a)    : Douglas Tanan Rodrigues
 // Data atual  : 27/03/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    hora : inteiro
    minuto : inteiro
    segundo : inteiro
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    para hora de 23 ate 0 passo -1 faca
       para minuto de 59 ate 0 passo -1 faca
          para segundo de 59 ate 0 passo -1 faca
