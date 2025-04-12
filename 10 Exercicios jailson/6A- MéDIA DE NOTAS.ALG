@@ -1,16 +1,16 @@
-Algoritmo "6a- Média de notas"
-// Disciplina   : [Lógica de Programação em JavaScript]
+Algoritmo "6a- MÃ©dia de notas"
+// Disciplina   : [LÃ³gica de ProgramaÃ§Ã£o em JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : José Eduardo Lins de Moura Junior
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
+// Autor(a)    : Douglas Tanan Rodrigues
 // Data atual  : 05/04/2025
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
       nota, soma: real
    contador: inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
       soma := 0
    contador := 0
    repita
@@ -20,11 +20,11 @@ Inicio
          soma := soma + nota
          contador := contador + 1
       fimse
-   até (nota < 0) ou (nota > 10)
+   atÃ© (nota < 0) ou (nota > 10)
    se contador > 0 entao
-      escreval("A média das notas é: ", soma / contador)
+      escreval("A mÃ©dia das notas Ã©: ", soma / contador)
    senao
-      escreval("Nenhuma nota válida foi inserida.")
+      escreval("Nenhuma nota vÃ¡lida foi inserida.")
    fimse
 
 Fimalgoritmo
