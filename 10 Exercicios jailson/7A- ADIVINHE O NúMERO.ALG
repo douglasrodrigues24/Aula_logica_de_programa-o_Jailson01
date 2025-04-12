@@ -1,21 +1,21 @@
-Algoritmo "7a- Adivinhe o número"
-// Disciplina   : [Lógica de Programação em JavaScript]
+Algoritmo "7a- Adivinhe o nÃºmero"
+// Disciplina   : [LÃ³gica de ProgramaÃ§Ã£o em JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : José Eduardo Lins de Moura Junior
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
+// Autor(a)    : Douglas Tanan Rodrigues
 // Data atual  : 05/04/2025
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
    numero_secreto, palpite: inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
    randomize
    numero_secreto := aleatorio(10) + 1
    repita
-      escreva("Adivinhe o número entre 1 e 10: ")
+      escreva("Adivinhe o nÃºmero entre 1 e 10: ")
       leia(palpite)
-   até palpite = numero_secreto
-   escreval("Parabéns! Você acertou!")
+   atÃ© palpite = numero_secreto
+   escreval("ParabÃ©ns! VocÃª acertou!")
 
 Fimalgoritmo
