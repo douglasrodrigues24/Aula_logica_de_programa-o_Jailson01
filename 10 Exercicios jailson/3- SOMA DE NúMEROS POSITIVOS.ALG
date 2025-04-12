@@ -1,23 +1,23 @@
-Algoritmo "3- Soma de números positivos"
-// Disciplina   : [Lógica de Programação em JavaScript]
+Algoritmo "3- Soma de nÃºmeros positivos"
+// Disciplina   : [LÃ³gica de ProgramaÃ§Ã£o em JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : José Eduardo Lins de Moura Junior
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
+// Autor(a)    : Douglas Tanan Rodrigues
 // Data atual  : 05/04/2025
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
      numero, soma: inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
     soma := 0
    repita
-      escreva("Digite um número positivo (ou negativo para parar): ")
+      escreva("Digite um nÃºmero positivo (ou negativo para parar): ")
       leia(numero)
       se numero >= 0 entao
          soma := soma + numero
       fimse
-   até numero < 0
-   escreval("A soma total é: ", soma)
+   atÃ© numero < 0
+   escreval("A soma total Ã©: ", soma)
 
 Fimalgoritmo
