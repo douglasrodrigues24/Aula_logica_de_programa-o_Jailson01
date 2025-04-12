@@ -1,16 +1,16 @@
 Algoritmo "8a- Contagem de vogais"
-// Disciplina   : [Lógica de Programação em JavaScript]
+// Disciplina   : [LÃ³gica de ProgramaÃ§Ã£o em JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : José Eduardo Lins de Moura Junior
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
+// Autor(a)    : Douglas Tanan Rodrigues
 // Data atual  : 05/04/2025
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
  palavra: caractere
    i, contador_vogais: inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
      repita
       contador_vogais := 0
       escreva("Digite uma palavra (ou 'sair' para encerrar): ")
@@ -23,6 +23,6 @@ Inicio
          fimpara
          escreval("A palavra ", palavra, " tem ", contador_vogais, " vogais.")
       fimse
-   até palavra = "sair"
+   atÃ© palavra = "sair"
 
 Fimalgoritmo
